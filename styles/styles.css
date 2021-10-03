@@ -5,6 +5,10 @@
   background: #202124;
 }
 
+body{
+  font-family: arial,sans-serif;
+}
+
 .hero{
   display: flex;
   flex-direction: column;
@@ -118,6 +122,93 @@
 .div1 .submitbtn:hover {
   background: #5f6368;
   transition: ease .3s;
+}
+
+.appbar{
+  color: #f28b82;
+  font-size: 20px;
+  margin: 25px 35px;
+}
+.line{
+  border-color: #3c4043;
+  border-bottom: 1px solid grey;
+}
+
+.Mza7yc{
+  max-width: 1140px;
+  min-width: 200px;
+  width: 96%;
+  margin: 40px 2% 0 45px;
+}
+
+.span1{
+  color: #e8eaed;
+  height: 30px;
+  display: table-cell;
+  vertical-align: middle;
+  padding-bottom: 10px;
+}
+
+.ad-container{
+  width: 100%;
+  clear: both;
+}
+
+.insert{
+  clear: both;
+}
+
+.text{
+  color: #bdc1c6;
+  float: left;
+  display: inline-block;
+  min-width: 167px;
+  width: 16%;
+  height: 42px;
+  font-size: 13px;
+  line-height: 16px;
+  vertical-align: middle;
+
+}
+
+.jj{
+  height: 30px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.insertbar{
+  float: left;
+  display: inline-block;
+  min-width: 167px;
+  min-height: 41px;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.in-container{
+  padding-right: 16px;
+}
+
+input.text-input{
+  background: #202124;
+  border: 1px solid #5f6368;
+  color: #bdc1c6;
+  width: 100%;
+  text-align: left;
+  border-radius: 1px;
+  font-size: 13px;
+  height: 25px;
+  padding: 1px 8px;
+}
+
+.adv-btn{
+  float: right;
+  display: inline-block;
+  min-width: 167px;
+  min-height: 41px;
+  vertical-align: middle;
+  width: 50%;
 }
 
 
